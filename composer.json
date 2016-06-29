@@ -1,5 +1,5 @@
 {
-    "name": "apimatic/api2postnordcomfindnearbyservicepoints",
+    "name": "henrikhj/api2postnordcomfindnearbyservicepoints",
     "type": "library",
     "description": "PostNord service point locator",
     "keywords": ["api2.postnord.com - Find nearby service points","API","SDK"],

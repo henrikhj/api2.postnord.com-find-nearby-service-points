@@ -33,7 +33,7 @@ class APIException extends Exception {
      */
     public function __construct($reason, $responseCode, $responseBody)
     {
-        parent::__construct($reason, $responseCode, NULL);
+        parent::__construct($reason.' '.$responseBody, $responseCode, NULL);
         $this->responseCode = $responseCode;
         $this->responseBody = $responseBody;
     }
